@@ -1,0 +1,6 @@
+[
+    {
+        "in":[{"name":"diamond_block","count":1}],
+        "out":[{"name":"emerald","count":32}]
+    }
+]

@@ -1,0 +1,10 @@
+@font-face {
+    font-family: 'IWANTPOFont';
+    src: url('../font.otf') format('opentype');
+}
+
+body {
+    background-color: #1f1f1f;
+    color: #ffffff;
+    font-family: 'IWANTPOFont', sans-serif;
+}
