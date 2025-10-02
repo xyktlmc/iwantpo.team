@@ -1,33 +1,34 @@
 .trade-item{
   background-image: url('https://mcicons.ccleaf.com/assets/60.%20Interface/5.%20UI/Blank_Template_Gui_1Row.png');
-  background-size: fill;
+  background-size: cover; /* Changed from 'fill' */
   background-repeat: no-repeat;
   padding: 5px;
   margin: 10px;
   display: flex;
+  position: relative; /* Added for proper positioning context */
 }
 
 .trade-item #trade-arrow{
   height: 98%;
   width: 20%;
-  left:45%;
-  position: relitive;
+  left: 45%;
+  position: relative; /* Fixed spelling */
 }
 
 .trade-item #in-items{
   height: 98%;
   width: 40%;
-  left:5%
+  left: 5%; /* Added missing semicolon */
   display: inline-flex;
-  position: relitive;
+  position: relative; /* Fixed spelling */
 }
 
 .trade-item #in-items .item{
-  height: 98$;
+  height: 98%; /* Fixed: % instead of $ */
 }
 
 .trade-item #out-items .item{
-  height: 98$;
+  height: 98%; /* Fixed: % instead of $ */
 }
 
 .trade-item #out-items{
@@ -35,26 +36,23 @@
   width: 40%;
   right: 5%;
   display: inline-flex;
-  position: relitive;
+  position: relative; /* Fixed spelling */
 }
 
 .item{
-  display:block;
+  display: block;
 }
 
+/* Consolidated the duplicate .item p rules */
 .item p{
-  position: relitive;
-  bottom:0px;
-  right:0px;
-  height:5%;
-  width:5%;
-}
-
-.item p{
-  position: relitive;
-  top:0px;
-  left:0px;
-  height:100%;
-  width:100%;
-  z-index:-1;
+  position: relative; /* Fixed spelling */
+  top: 0px;
+  left: 0px;
+  height: 100%;
+  width: 100%;
+  z-index: 1; /* Changed from -1 to make text visible */
+  margin: 0; /* Added for better spacing */
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
