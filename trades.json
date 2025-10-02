@@ -1,7 +1,8 @@
 [
     {
         "in":[{"name":"diamond_block","count":1,"src":"https://mcicons.ccleaf.com/assets/20.%20Blocks/08.%20Material/Diamond_Block.png"}],
-        "out":[{"name":"emerald","count":32,"src"："https://mcicons.ccleaf.com/assets/10.%20Items/11.%20Materials/Emerald.png"}]
+        "out":[{"name":"emerald","count":32,"src":"https://mcicons.ccleaf.com/assets/10.%20Items/11.%20Materials/Emerald.png"}]
     }
 
 ]
+
