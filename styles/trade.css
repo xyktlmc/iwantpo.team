@@ -22,6 +22,14 @@
   position: relitive;
 }
 
+.trade-item #in-items .item{
+  height: 98$;
+}
+
+.trade-item #out-items .item{
+  height: 98$;
+}
+
 .trade-item #out-items{
   height: 98%;
   width: 40%;
