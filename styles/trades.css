@@ -8,30 +8,23 @@
 
 .trade-item .trade-arrow{
   height: 98%;
-  width: auto;
+  width: 20%;
   left:45%;
+  position: relitive;
 }
 
-.trade-item .in-1{
+.trade-item .in-items{
   height: 98%;
-  width: auto;
+  width: 40%;
   left:5%
+  display: inline-flex;
+  position: relitive;
 }
 
-.trade-item .in-1{
+.trade-item .out-items{
   height: 98%;
-  width: auto;
-  left: 25%;
-}
-
-.trade-item .out-1{
-  height: 98%;
-  width: auto;
-  right: 25%;
-}
-
-.trade-item .out-2{
-  height: 98%;
-  width: auto;
+  width: 40%;
   right: 5%;
+  display: inline-flex;
+  position: relitive;
 }
