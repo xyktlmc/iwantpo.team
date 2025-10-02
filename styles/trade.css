@@ -4,6 +4,7 @@
   background-repeat: no-repeat;
   padding: 5px;
   margin: 10px;
+  display: flex;
 }
 
 .trade-item .trade-arrow{
