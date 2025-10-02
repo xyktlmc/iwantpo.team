@@ -9,12 +9,13 @@ document.addEventListener("DOMContentLoaded", () => {
                 const tradeItem = document.createElement("div");
                 tradeItem.classList.add("trade-item");
 
-                const inputItems = trade.in.map(item => `${item.count}x ${item.name}`).join(", ");
-                const outputItems = trade.out.map(item => `${item.count}x ${item.name}`).join(", ");
+                const inputItems = trade.in.map(item => `<div class="item"><img src="${item.src}" alt="${item.name}"  /><p>${item.count}</p></div>`).join("\n");
+                const outputItems = trade.out.map(item => `<div class="item"><img src="${item.src}" alt="${item.name}"  /><p>${item.count}</p></div>`).join("\n");
 
                 tradeItem.innerHTML = `
-                    <p><strong>Input:</strong> ${inputItems}</p>
-                    <p><strong>Output:</strong> ${outputItems}</p>
+                    <div id="in-items">${inputItems}</div>
+                    <img
+                    <div id="out-items">${outputItems}</div>
                 `;
                 tradeList.appendChild(tradeItem);
             });
@@ -24,3 +25,4 @@ document.addEventListener("DOMContentLoaded", () => {
             console.error("Error fetching trades:", error);
         });
 });
+
