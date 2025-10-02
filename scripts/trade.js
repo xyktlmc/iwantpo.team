@@ -14,7 +14,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
                 tradeItem.innerHTML = `
                     <div id="in-items">${inputItems}</div>
-                    <img
+                    <img alt="arrow" src="https://mcicons.ccleaf.com/thumbnails/60.%20Interface/5.%20UI/Crafting_Arrow.png" />
                     <div id="out-items">${outputItems}</div>
                 `;
                 tradeList.appendChild(tradeItem);
@@ -25,4 +25,5 @@ document.addEventListener("DOMContentLoaded", () => {
             console.error("Error fetching trades:", error);
         });
 });
+
 
