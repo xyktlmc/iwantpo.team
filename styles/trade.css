@@ -21,7 +21,7 @@
   height: 98%;
   width: 40%;
   left: 5%; /* Added missing semicolon */
-  display: inline-flex;
+  display: inline-block;
   position: relative; /* Fixed spelling */
 }
 
@@ -37,7 +37,7 @@
   height: 98%;
   width: 40%;
   right: 5%;
-  display: inline-flex;
+  display: inline-block;
   position: relative; /* Fixed spelling */
 }
 
