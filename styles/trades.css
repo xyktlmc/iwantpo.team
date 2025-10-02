@@ -1,0 +1,37 @@
+.trade-item{
+  background-image: https://mcicons.ccleaf.com/assets/60.%20Interface/5.%20UI/Blank_Template_Gui_1Row.png;
+  background-size: fill;
+  background-repeat: no-repeat;
+  padding: 5px;
+  margin: 10px;
+}
+
+.trade-item .trade-arrow{
+  height: 98%;
+  width: auto;
+  left:45%;
+}
+
+.trade-item .in-1{
+  height: 98%;
+  width: auto;
+  left:5%
+}
+
+.trade-item .in-1{
+  height: 98%;
+  width: auto;
+  left: 25%;
+}
+
+.trade-item .out-1{
+  height: 98%;
+  width: auto;
+  right: 25%;
+}
+
+.trade-item .out-2{
+  height: 98%;
+  width: auto;
+  right: 5%;
+}
