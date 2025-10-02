@@ -7,14 +7,14 @@
   display: flex;
 }
 
-.trade-item .trade-arrow{
+.trade-item #trade-arrow{
   height: 98%;
   width: 20%;
   left:45%;
   position: relitive;
 }
 
-.trade-item .in-items{
+.trade-item #in-items{
   height: 98%;
   width: 40%;
   left:5%
@@ -22,7 +22,7 @@
   position: relitive;
 }
 
-.trade-item .out-items{
+.trade-item #out-items{
   height: 98%;
   width: 40%;
   right: 5%;
@@ -30,11 +30,11 @@
   position: relitive;
 }
 
-#item{
+.item{
   display:block;
 }
 
-#item p{
+.item p{
   position: relitive;
   bottom:0px;
   right:0px;
@@ -42,7 +42,7 @@
   width:5%;
 }
 
-#item p{
+.item p{
   position: relitive;
   top:0px;
   left:0px;
