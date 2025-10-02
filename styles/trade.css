@@ -6,7 +6,7 @@
   margin: 10px;
   display: flex;
   position: relative; /* Added for proper positioning context */
-  width: 50%
+  width: 50%;
   height: 50px;
 }
 
